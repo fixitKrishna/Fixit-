@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fixit - Repair Services</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Fixit</h1>
+    <p>Your local repair expert - Noida | Greater Noida | Delhi NCR</p>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search by service or location...">
+      <button onclick="search()">Search</button>
+    </div>
+  </header>
+
+  <main id="service-list">
+    <div class="card" data-service="AC Repair" data-location="Noida">
+      <h2>AC Repair - CoolTech</h2>
+      <p>Location: Noida</p>
+      <p>Call: <a href="tel:+911234567890">+91 1234567890</a></p>
+      <a class="whatsapp" href="https://wa.me/911234567890" target="_blank">WhatsApp</a>
+    </div>
+
+    <div class="card" data-service="Electrician" data-location="Greater Noida">
+      <h2>HomeFix Electricians</h2>
+      <p>Location: Greater Noida</p>
+      <p>Call: <a href="tel:+911122334455">+91 1122334455</a></p>
+      <a class="whatsapp" href="https://wa.me/911122334455" target="_blank">WhatsApp</a>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
